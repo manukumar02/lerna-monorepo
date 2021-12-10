@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "name": "root",
+  "scripts": {
+    "start": "lerna run start",
+    "test": "lerna run test --scope=web-client",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  }
+}
